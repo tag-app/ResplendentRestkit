@@ -6,6 +6,8 @@
 //  Copyright (c) 2014 Camerama. All rights reserved.
 //
 
+#import <RestKit/RestKit.h>
+
 #import "NSDictionary+RRKPropertyMappings.h"
 
 #import "RUConditionalReturn.h"
