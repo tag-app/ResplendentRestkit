@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Resplendent. All rights reserved.
 //
 
+#import <CoreData/CoreData.h>
 #import "RKObjectManager.h"
 
 
