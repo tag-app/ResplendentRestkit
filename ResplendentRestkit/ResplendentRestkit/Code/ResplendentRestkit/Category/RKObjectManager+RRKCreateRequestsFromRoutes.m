@@ -139,7 +139,7 @@
     kRUConditionalReturn_ReturnValueNil(urlRequest == nil, YES);
     
     RKObjectRequestOperation* requestOperation = (managedObjectContext ?
-                                                  [self managedObjectRequestOperationWithRequest:urlRequest managedObjectContext:managedObjectContext success:success failure:failure] :
+                                                  (RKObjectRequestOperation *)[self managedObjectRequestOperationWithRequest:urlRequest managedObjectContext:managedObjectContext success:success failure:failure] :
                                                   [self objectRequestOperationWithRequest:urlRequest success:success failure:failure]);
     
     [self enqueueObjectRequestOperation:requestOperation];
